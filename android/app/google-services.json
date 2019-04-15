@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "763424175751",
+    "firebase_url": "https://teste123-84d11.firebaseio.com",
+    "project_id": "teste123-84d11",
+    "storage_bucket": "teste123-84d11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763424175751:android:0259a09856044fd6",
+        "android_client_info": {
+          "package_name": "br.com.crefisa.crefisa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBejXAMRs3mEIh3imn_chgg02JrhTCgzV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763424175751-3vsq2tq7al3knojup2c5i8l24093p0ed.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "763424175751-0mid4v9clc694piskpeauj7hs2b5ib7t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.crefisa.teste888"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

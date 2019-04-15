@@ -6,7 +6,7 @@
     "start-app": "node node_modules/react-native/local-cli/cli.js start",
     "start-web": "webpack-dev-server",
     "build-web": "webpack --env.NODE_ENV=production",
-    "limpa-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "limpa-android": "cd android && ./gradlew clean && cd .. && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
     "postinstall": "react-native-port-patcher --new-port 8082"
   },
   "dependencies": {

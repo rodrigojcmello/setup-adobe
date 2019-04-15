@@ -1,7 +1,7 @@
 import { Contador, ContadorAction } from './tipos';
 
 const contadorState: Contador = {
-  contador: 0
+  contador: 15
 };
 
 const contador = (state = contadorState, action: ContadorAction): Contador => {

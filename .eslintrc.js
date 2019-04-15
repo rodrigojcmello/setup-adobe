@@ -36,7 +36,10 @@ module.exports = {
     'react/jsx-key': 2,
 
     // Prettier
-    'prettier/prettier': 1
+    'prettier/prettier': 1,
+
+    // Import
+    'import/prefer-default-export': 0
   },
   settings: {
     react: {

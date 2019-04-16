@@ -1,5 +1,5 @@
-import { styled } from '../../assets/styled-components/styled-components';
 import Tela from '../../genericos/Tela';
+import { styled } from '../../../assets/styled-components/styled-components';
 
 const estilo = {
   Tela: styled(Tela)`

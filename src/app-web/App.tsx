@@ -2,13 +2,13 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider as ReduxProvider } from 'react-redux';
 import { Router } from 'react-router-dom';
-import EstiloGlobal from './assets/styled-components/EstiloGlobal';
-import { ThemeProvider } from './assets/styled-components/styled-components';
-import { tema } from './assets/styled-components/tema';
 import Rota from './rotas/Rota';
 import Listener from './utils/Listener';
 import { historia } from './utils/historia';
-import { reduxStore } from '../shared/store';
+import { reduxStore } from '../store';
+import EstiloGlobal from "../assets/styled-components/EstiloGlobal";
+import {ThemeProvider} from 'styled-components';
+import {tema} from '../assets/styled-components/tema';
 
 // if ('serviceWorker' in navigator && PRODUCTION) {
 //   window.addEventListener('load', () => {

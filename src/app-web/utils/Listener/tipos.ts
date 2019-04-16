@@ -1,4 +1,4 @@
-import { DefinirLarguraJanela } from '../../../shared/store/navegador/tipos';
+import { DefinirLarguraJanela } from '../../../store/navegador/tipos';
 
 // Redux
 

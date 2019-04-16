@@ -7,7 +7,7 @@ module.exports = (env = { NODE_ENV: '' }) => {
   const prod = env.NODE_ENV === 'production';
   const config = {
     mode: prod ? 'production' : 'development',
-    entry: './src-web/App.tsx',
+    entry: './src/app-web/App.tsx',
     output: {
       filename: '[name].[contenthash].js',
       path: `${__dirname}/dist`

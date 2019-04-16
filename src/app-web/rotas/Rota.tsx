@@ -9,7 +9,7 @@ import {
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { RouteConfigComponentProps } from 'react-router-config';
 import rotas from './rotas';
-import { styled } from '../assets/styled-components/styled-components';
+import {styled} from '../../assets/styled-components/styled-components';
 
 const fakeAuth = true;
 

@@ -2,7 +2,7 @@ import React, { Component, memo } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { mapDispatchToProps, mapStateToProps } from './connect';
-import { Props } from '../../../src-app/telas/Tela1/tipos';
+import { Props } from '../../../app-mobile/telas/Tela1/tipos';
 
 class Tela1 extends Component<Props> {
   static navigationOptions = {

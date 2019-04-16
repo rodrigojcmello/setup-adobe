@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import {
-  TouchableOpacity,
-  Text,
-  TextInput,
-  View,
-  ScrollView
-} from 'react-native';
+import { Text, View, ScrollView, TouchableOpacity } from 'react-native';
+import styled from 'styled-components/native';
 import e from './estilo';
+import estilo from '../../../assets/estilo/Tela2';
+
+const CPF = styled.TextInput`
+  shadow-color: black;
+  elevation: 3;
+`;
 
 class Tela2 extends Component {
   state = {
@@ -30,17 +31,17 @@ class Tela2 extends Component {
     return (
       <ScrollView
         style={e.tela}
-        keyboardShouldPersistTaps={false}
+        keyboardShouldPersistTaps="never"
         bounces={false}
       >
         <Text>Tela2 123</Text>
         <View style={e.cpfView}>
-          <TextInput style={e.cpf} onChangeText={this.definirCPF} value={cpf} />
-          <TouchableOpacity onPress={this.enviar} activeOpacity={0.8}>
+          <CPF onChangeText={this.definirCPF} value={cpf} />
+           <TouchableOpacity onPress={this.enviar} activeOpacity={0.8}>
             <View style={e.enviarView}>
               <Text style={e.enviarText}>enviar</Text>
             </View>
-          </TouchableOpacity>
+           </TouchableOpacity>
         </View>
       </ScrollView>
     );

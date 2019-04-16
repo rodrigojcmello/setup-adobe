@@ -13,7 +13,7 @@ const MainNavigator = createStackNavigator(
     Tela3: { screen: Tela3 }
   },
   {
-    initialRouteName: 'Tela1'
+    initialRouteName: 'Tela2'
   }
 );
 

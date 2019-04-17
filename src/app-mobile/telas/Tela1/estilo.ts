@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import tema from '../../assets/tema';
+import { tema } from '../../../assets/styled-components/tema';
 
 export default StyleSheet.create({
   container: {

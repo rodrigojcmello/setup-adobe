@@ -1,19 +1,28 @@
-export interface ThemeInterface {
-  fonte1: string;
+export interface Tema {
   cor1: string;
-  primaryColorInverted: string;
+  cor2: string;
+  fonte1: string;
+  fonte2: string;
   preto1: string;
   preto2: string;
-  corDivisao: string;
+  corDivisao1: string;
+  corDivisao2: string;
+  larguraMobile: number;
 }
 
-export const tema: ThemeInterface = {
-  fonte1: 'Roboto, sans-serif',
+export const tema: Tema = {
+  /* Cores */
   cor1: '#D1495B',
-  primaryColorInverted: 'purple',
+  cor2: '#D1495B',
   preto1: '#4D4D4D', // 70% preto
   preto2: '#999999', // 60% preto
-  corDivisao: '#EFEFEF' // 94% branco
-};
+  corDivisao1: '#EFEFEF', // 94% branco
+  corDivisao2: '#EFEFEF', // 94% branco
 
-export const larguraMobile = 425;
+  /* Medidas */
+  larguraMobile: 425,
+
+  /* Outros */
+  fonte1: 'Roboto, sans-serif',
+  fonte2: 'Roboto, sans-serif'
+};

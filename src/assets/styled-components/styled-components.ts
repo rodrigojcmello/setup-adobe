@@ -1,5 +1,5 @@
 import * as styledComponents from 'styled-components';
-import { ThemeInterface } from './tema';
+import { Tema } from './tema';
 
 const {
   default: styled,
@@ -7,8 +7,6 @@ const {
   css,
   keyframes,
   ThemeProvider
-} = styledComponents as styledComponents.ThemedStyledComponentsModule<
-  ThemeInterface
->;
+} = styledComponents as styledComponents.ThemedStyledComponentsModule<Tema>;
 
 export { styled, createGlobalStyle, keyframes, css, ThemeProvider };

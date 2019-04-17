@@ -1,6 +1,6 @@
 import { bindActionCreators, Dispatch } from 'redux';
 import { DispatchToProps, StateToProps } from './tipos';
-import { AppState } from '../../../store';
+import { AppState } from '../../../store/index';
 import editarContador from '../../../store/contador/actions';
 
 export const mapStateToProps = (state: AppState): StateToProps => ({

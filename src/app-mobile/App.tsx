@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider as ReduxProvider } from 'react-redux';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import { reduxStore } from '../store';
+import { reduxStore } from '../store/index';
 import Tela1 from './telas/Tela1';
 import Tela2 from './telas/Tela2';
 import Tela3 from './telas/Tela3';

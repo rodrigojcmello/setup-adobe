@@ -2,7 +2,7 @@ import { Keyframes } from 'styled-components';
 import {
   keyframes,
   styled
-} from '../../assets/styled-components/styled-components';
+} from '../../assets/styled-components';
 
 // Estilo Mobile
 

@@ -4,10 +4,11 @@ import { Provider as ReduxProvider } from 'react-redux';
 import { Router } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { PersistGate } from 'redux-persist/integration/react';
+import TagManager from 'react-gtm-module';
 import Rota from './rotas/Rota';
 import Listener from './utils/Listener';
-import { historia } from './utils/historia';
-import { store, persistor } from '../store/index';
+import { historico } from './utils/historico';
+import { store, persistor } from '../store';
 import EstiloGlobal from '../assets/styled-components/EstiloGlobal';
 import { tema } from '../assets/styled-components/tema';
 
@@ -17,6 +18,10 @@ import { tema } from '../assets/styled-components/tema';
 //   });
 // }
 
+TagManager.initialize({
+  gtmId: 'GTM-5BDL8ZG'
+});
+
 function App(): JSX.Element {
   return (
     <ReduxProvider store={store}>
@@ -24,7 +29,7 @@ function App(): JSX.Element {
         <ThemeProvider theme={tema}>
           <Listener>
             <>
-              <Router history={historia}>
+              <Router history={historico}>
                 <Rota />
               </Router>
               <EstiloGlobal />

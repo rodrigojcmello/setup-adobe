@@ -46,7 +46,7 @@ module.exports = {
       version: 'latest'
     },
     'import/resolver': {
-      node: {
+      alias: {
         extensions: ['.js', '.ts', '.tsx']
       }
     }
